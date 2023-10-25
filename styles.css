@@ -60,7 +60,7 @@ p {
 }
 
 #chart img {
-    width: 60%;        /* Controls the width of the chart */
+    width: 80%;        /* Controls the width of the chart */
     height: auto;      /* Maintains the aspect ratio */
     display: block;    /* Ensures the image is centered */
     margin: 20px auto; /* Centers the image horizontally and provides spacing */
