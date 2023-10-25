@@ -20,10 +20,9 @@ header {
 }
 
 .logo {
-    width: 70%;
-    margin: 0 auto;
+    width: 30%;        /* Reducing the width to make the logo smaller */
+    margin: 10px auto; /* Centers the logo horizontally and provides a bit of spacing */
     display: block;
-    padding: 20px 0;
 }
 
 section {
