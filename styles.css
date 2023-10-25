@@ -61,8 +61,13 @@ p {
 }
 
 #chart img {
-    max-width: 80%;    /* Controls the width of the chart */
+    width: 60%;        /* Controls the width of the chart */
     height: auto;      /* Maintains the aspect ratio */
     display: block;    /* Ensures the image is centered */
-    margin: 0 auto;    /* Centers the image horizontally */
+    margin: 20px auto; /* Centers the image horizontally and provides spacing */
+}
+
+.container > section {
+    clear: both;       /* Ensures each section starts on a new line */
+    text-align: center; /* Centers content within each section */
 }
