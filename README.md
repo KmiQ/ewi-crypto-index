@@ -1,15 +1,10 @@
 # EWI Crypto Index
 
-An equal-weighted index that aims to represent the crypto market's overall health by including a diverse range of tokens.
+Investing "properly" in the cryptocurrency market often demands exhaustive fundamental and technical analyses for each project to predict its future success. This manual effort, while thorough, proved unsustainable and misaligned with my aspirations for a balanced life. This realization brought me to an epiphany: while investment losses are finite, gains hold boundless potential. This perspective shift led me to adopt a "market mindset," focusing on aggregate market behavior rather than individual token performance.
 
-## Motivation
-As part of investing in the crypto market, I was tired of doing manual fundamental + technical analysis for each crypto project, trying to predict whether a project could be a successful one in the following months/years. I realized this manual labor was not sustainable in the long term and was highly time-consuming, so it was not aligned with my personal goals regarding life design.
-At some point, I realized that mathematically speaking, losses are capped (you can’t lose more than 100% of your investment), but gains are not (theoretically, there is no ceiling for gains, that’s why you see tokens with gains greater than 10000%). So, I started to think more in terms of the market, I started to develop what I call “a market mindset” to solve this problem. I started to analyze the field with a “market” zoom-out approach. Navigating through this, there were some fundamental questions I was trying to answer:
-If at time t, you invest $X, equally distributed around all the crypto tokens, how much money would you have at time t1 (t1 > t)? Do the winners offset the losers in terms of gains?
-I was looking for something simple, you enter the “market” at time t, and you exit the market at time t1 (t1>t), with no rebalancing in the middle or any other strategy, how much money would you have? In terms of %, what was your gain/loss? That’s it. I was not interested in the most optimal trading strategy, I was just interested in a simple, low-risk, and winning strategy.
-Trying to answer the above questions, I did some backtesting for the crypto market to see if a market mindset could be a long-term winning strategy. As part of this backtesting work, I realized that my approach could be framed as a simple index to measure/track the state of the crypto industry/market, which I feel I needed a lot with the development of a market mindset since the community approach of just taking Bitcoin as the tracker for crypto market health was not sufficient. So, I came up with an index/metric for tracking the crypto market as part of all the work I was doing to educate myself, answer questions, and leverage the time I’m living on.
+Consider this scenario: if one were to invest an equal sum across the entire spectrum of cryptocurrency tokens at time t, what would the return be at a later time t1? The core question was whether the collective performance of winning tokens could outweigh the underperformers in a straightforward, no-rebalance investment strategy. To address this, I conducted backtesting to determine if a market-centric approach could consistently yield positive outcomes. This experimentation revealed the necessity for a tool to monitor the crypto market's pulse more comprehensively than Bitcoin's singular representation or Ethereum-only-based indexes.
 
-Also, many current indexes represent Ethereum ecosystem tokens only. 
+Hence, I devised a simple, yet effective index—a metric designed to encapsulate the vitality of the crypto industry. The EWI Crypto Index is an equal-weighted index that aims to represent the crypto market's overall health by including a diverse range of tokens. It was birthed in 2022 from a desire to simplify investment analysis for the crypto market. Daily updates/reports are posted on the Telegram channel and Twitter account where the index can be tracked/followed. I have been using this metric as an input for personal investment in the crypto market and after one year I decided to share it with the community.
 
 ## Index Goals
 - [Measuring] Measure the crypto market performance.
@@ -29,7 +24,7 @@ Crypto tokens must meet the following eligibility factors to be eligible as an i
 - [Volatility] Volatility in the last 90 days should be less than 200.
 
 **Reasoning**
-The idea behind these rules is to be as inclusive as possible and keep things simple, having a broader representation of the crypto market industry with minimal intervention about who should be considered or not a player. That said, I feel this is still a work in progress, and a better job could be done regarding eligibility. IMO the sweet spot is one where we reach a balance between keeping the market mindset and protecting ourselves from non-sense/fake/fraud tokens.
+The idea behind these rules is to be as inclusive as possible and keep things simple, having a broader representation of the crypto market industry with minimal intervention about who should be considered or not a player. That said, I feel this is still a work in progress and a better job could be done regarding eligibility. IMO the sweet spot is one where we reach a balance between keeping the market mindset and protecting ourselves from non-sense/fake/fraud tokens.
 
 ## Index Construction
 
