@@ -30,7 +30,7 @@ The idea behind these rules is to be as inclusive as possible and keep things si
 ## Index Construction
 
 ### Constituent Selection
-At each quarter reconstitution, all eligible tokens are selected and form the index.
+At each quarter reconstitution, all eligible tokens are selected and form the index. (_see [assets.json](https://github.com/KmiQ/ewi-crypto-index/blob/master/assets.json)_)
 
 ### Weighting
 The index is an Equal Weighted Index. An equal-weighted index is one where every stock, or crypto-token, has the same weight, and a portfolio that tracks the index will invest an equal dollar amount in each applicable instrument/constituent. As prices move, the weights will shift, and exact equality will be lost. Therefore, an equal-weighted index must be rebalanced from time to time to re-establish proper weighting. At this time, we are doing no rebalancing to keep things simple (one of the foundational goals).
