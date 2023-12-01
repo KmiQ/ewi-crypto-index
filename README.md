@@ -1,5 +1,6 @@
 # EWI Crypto Index
 
+## Motivation
 Investing "properly" in the cryptocurrency market often demands exhaustive fundamental and technical analyses for each project to predict its future success. This manual effort, while thorough, proved unsustainable and misaligned with my aspirations for a balanced life. This realization brought me to an epiphany: while investment losses are finite, gains hold boundless potential. This perspective shift led me to adopt a "market mindset," focusing on aggregate market behavior rather than individual token performance.
 
 Consider this scenario: if one were to invest an equal sum across the entire spectrum of cryptocurrency tokens at time t, what would the return be at a later time t1? The core question was whether the collective performance of winning tokens could outweigh the underperformers in a straightforward, no-rebalance investment strategy. To address this, I conducted backtesting to determine if a market-centric approach could consistently yield positive outcomes. This experimentation revealed the necessity for a tool to monitor the crypto market's pulse more comprehensively than Bitcoin's singular representation or Ethereum-only-based indexes.
