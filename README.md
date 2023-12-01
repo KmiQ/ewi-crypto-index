@@ -1,4 +1,6 @@
 # EWI Crypto Index
+<img width="45%" height="45%" alt="Screenshot 2023-12-01 at 4 42 03 PM" src="https://github.com/KmiQ/ewi-crypto-index/assets/17998810/e977ac54-768e-4748-be4e-f4896af39ce7">
+
 
 ## Motivation
 Investing in cryptocurrencies used to mean spending hours on manual fundamental and technical analysis for each project, trying to guess which ones would succeed. This method was time-consuming, unsustainable, and not in line with my life goals. Then it hit me: there's a limit to losses (_you can only lose up to the total amount of your investment_), but gains are not (_theoretically, there is no ceiling for gains, which explains why some tokens exhibit gains exceeding 1000%_). In other words, while you can only lose what you invest, the potential gains are unlimited. This shift in perspective led me to look at the bigger picture in the crypto market, rather than focusing on individual tokens, I began adopting what I like to call 'a market mindset', a strategy I later discovered is commonly used in venture capital investments. This approach involves zooming out to view the market as a whole. During this process, I was driven by a key question: **If you invest a certain amount, say $x, at time t and distribute it equally across all available crypto tokens, what would be the value of that investment at a later time, t1 (where t1 is greater than t)? Essentially, I wanted to find out if the gains from the successful tokens could outweigh the losses from the less successful ones.**
@@ -105,5 +107,5 @@ The decision behind no-rebalancing is to keep things simple. Rebalancing means a
 **Q: What is the best way to track this index?**
 Since we are doing no rebalancing, the best way to track the index is to replicate the weights and distribute your investment in tokens according to its weights distribution in the index. However, implementing this is not an easy task, that’s why a secondary strategy could be just invest the same amount of money in every token, as if you were tracking an equal weighted index with frequent rebalancing.
 
-# How to contribute
-There are a bunch of questions and things we could do to further improve this index. Don't be shy and feel free to create an issue with your question/suggestion/solution and we can take it from there.
+## How to contribute
+Got ideas or feedback for the EWI Crypto Index? I'd love to hear from you! Feel free to open an issue with any questions or suggestions and we can take it from there.
